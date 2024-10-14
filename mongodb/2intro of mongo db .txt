@@ -1,0 +1,34 @@
+history of mongo db//
+mongodb mongo+db
+mongo is the word derieved from humangus (very big data)
+db:data base
+developers
+wright merriman
+eloit
+kevin p ryan
+in 2009
+double click company
+mongodb//
+mongodb is cross platform application
+that means platform independent
+it is object oriented no sql
+which gave
+high performance 
+high scalability
+high avaliability
+mongodb work based on the collection of document
+//why
+mongo bd has 
+rich queries
+document oriented
+high scalable
+where//
+to manage big data
+mobile and social infrastructure
+where there is no need of schema
+user data manage ment system
+internally works//
+json=>mongodbshell+js engine=>mongo db driver=>bson
+archietecture
+//mongodb architecture
+database=>collection=>document=>{KEy:value}

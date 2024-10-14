@@ -1,0 +1,15 @@
+db.emp.find({$and:[{ename:'martin'},{sal:{$ne:null}}]})
+db.emp.find({skills:{$all:['html','js']}})
+db.emp.find({deptno:{$exists:true}})
+db.emp.find({sal:{$type:'double'}})
+db.emp.find()
+db.flipkart.insertMany([{orderno:100,amount:200},{orderno:108,amount:200}])
+db.student.find({age:{$gte:18}})
+db.student.updateMany({age:{$gte:18}},{$set:{eligibletovote:'yes'}})
+db.emp.deleteMany({ename:'miller'})
+db.emp.updateMany({},{$set:{sal:{$type:"string"}}})//   
+db.emp.find({skills:{$size:3}})
+db.icc.find({cricket:{$elemMatch:{score:99,status:'out'}}})
+db.icc.find({cricket:{$and:{'cricket.score':99,'cricket.status':'out'}}})//
+db.emp.find({$and:[{skills:{$ne:'node.js'}},{sal:{$lte:2500}},{comm:null}]})
+mongosh
